@@ -6,5 +6,5 @@ before_install:
   - docker build -t falkobenthin/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run falkobenthin/docker-react -- --coverage
+  - docker run falkobenthin/docker-react npm run test -- --coverage
 
