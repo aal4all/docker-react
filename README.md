@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts ja ja
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/aal4all/docker-react.svg)](https://greenkeeper.io/)
+
 In the project directory, you can run:
 
 ### `npm start`
