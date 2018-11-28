@@ -8,17 +8,17 @@ before_install:
 script:
   - docker run docker-reactblablub npm run test -- --coverage
 
-deploy:
-  provider: elasticbeanstalk
-  region: "eu-central-1"
-  app: "docker-reactblablub"
-  env: "DockerReactblablub-env"
-  bucket_name: "elasticbeanstalk-eu-central-1-113651007235"
-  bucket_path: "docker-reactblablub"
-  on:
-    branch: master
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+    #deploy:
+    #  provider: elasticbeanstalk
+    #  region: "eu-central-1"
+    #  app: "docker-reactblablub"
+    #  env: "DockerReactblablub-env"
+    #  bucket_name: "elasticbeanstalk-eu-central-1-113651007235"
+    #  bucket_path: "docker-reactblablub"
+    #  on:
+    #    branch: master
+    #  access_key_id: $AWS_ACCESS_KEY
+    #  secret_access_key:
+    #    secure: "$AWS_SECRET_KEY"
 
 
